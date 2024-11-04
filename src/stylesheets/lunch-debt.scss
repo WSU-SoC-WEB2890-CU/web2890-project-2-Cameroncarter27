@@ -1,0 +1,19 @@
+@import 'global';
+
+main {
+    & div {
+        border-top: 1px solid $primary;
+        // border-bottom: 1px solid $primary;
+    }
+
+    & h2 {
+        // display: flex;
+        flex: 2;
+    }
+    & p {
+        // display: flex;
+        flex: 1;
+    }
+}
+
+

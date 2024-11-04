@@ -1,0 +1,20 @@
+$primary: #404F30;
+// $secondary: #371000;
+// $secondary:#E7C694;
+$secondary: #777C53;
+$tertiary: #E7C694;
+$light: #FFF7E1;
+$dark: #371000;
+
+
+
+
+
+
+@import "bootstrap/scss/bootstrap.scss";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+
+.btn {
+    color: $light;
+}
