@@ -1,0 +1,46 @@
+@import 'global';
+
+.hero {
+    justify-content: center;
+    background: url("../background/forest(dark).jpg") no-repeat center center; 
+    background-size: cover;
+    padding: 5.5rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    & h1 {
+        text-align: center;
+        color: $light;
+    }
+}
+
+.col {
+    padding: .35rem;
+}
+.card {
+    box-shadow: 3px 3px 5px rgb(68, 68, 68);
+    color: $light;
+    background-color: $primary;
+    margin: 0;
+    padding: 0;
+    // border: none;
+
+    & img {
+        border: 1px solid $primary;
+        // border-radius: 1rem;
+    }
+
+    & h4 {
+        color: $info;
+        text-align: center;
+        text-decoration: underline;
+    }
+    & h6 {
+        text-align: center;
+    }
+    
+
+    // & .card-body {
+    //     border: 1px solid $primary;
+    // }
+}

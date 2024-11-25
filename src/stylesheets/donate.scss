@@ -1,0 +1,29 @@
+@import 'global';
+.hero {
+    justify-content: center;
+    background: url("../background/forest(dark).jpg") no-repeat center center; 
+    background-size: cover;
+    padding: 5.5rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    & h1 {
+        text-align: center;
+        color: $light;
+    }
+}
+
+main {
+    padding: 0 0 2rem;
+    & img {
+        width: 100%;
+        height: 40vh;
+        margin: 1rem 0 2rem;
+    }
+
+    & form {
+        border: 1px solid $primary;
+        margin: 2rem;
+        padding: 2rem;
+    }
+}
