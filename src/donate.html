@@ -13,9 +13,7 @@
 
 <body>
   <header>
-    <div class="container-fluid">
-      <img class="justify-content-center" src="./logos/UEI-Rectangle-Primary-Logo.svg" alt="UEI Logo">
-    </div>
+    
     <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"></a>
@@ -38,6 +36,9 @@
               <a class="nav-link" href="events.html">Events</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="volunteer.html">Volunteer</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="donate.html">Donate</a>
             </li>
 
@@ -45,20 +46,27 @@
         </div>
       </div>
     </nav>
+    <div class="container-fluid">
+      <img class="justify-content-center" src="./logos/UEI-Rectangle-Primary-Logo.svg" alt="UEI Logo">
+    </div>
+
+    <div class="hero">
+      <h1 class="display-1">Donate</h1>
+    </div>
   </header> 
   <main>
-    <div class="container d-flex flex-column justify-content-center">
-      <h1>Donate</h1>
+    <div class="container d-flex flex-column justify-content-center p-3">
+      <!-- <h1>Donate</h1> -->
       <!-- <div>
         <img src="logos/UEI-Badge-Primary-Logo.svg" alt="">
       </div> -->
-      <p>Your contributions keep us operating, erasing student lunch debt, and building stronger communities. Thank you for your willingness to contribute!</p>
+      <p class="text-center lead">Your contributions keep us operating, erasing student lunch debt, and building stronger communities. Thank you for your willingness to contribute!</p>
       <div class="text-center">
         <a href="https://www.paypal.com/donate/?hosted_button_id=7RDXFGJV75AUC" class="btn btn-secondary">Donate with PayPal</a>
       <a href="https://account.venmo.com/u/utahempowerment" class="btn btn-secondary">Donate with Venmo</a>
       </div>
 
-      <form>
+      <form class="bg-light">
         <div class="mb-3">
           <label for="donationAmount" class="form-label">Enter Donation Amount</label>
           <input type="number" class="form-control" id="donationAmount" data-currency="USD" placeholder="50.00">
@@ -72,28 +80,31 @@
 
   </main>
   <footer>
-    <div class="row row-cols-lg-3 row-cols-md-3 row-cols-sm-1 row-cols-1">
-      <div class="col">
-        <img src="./logos/UEI-Badge-Primary-Logo.svg">
-        <!-- <p>Creating a brighter, more equitable tomorrow for all of Utah, today.</p> -->
+    <div class="container-fluid">
+      <div class="row row-cols-lg-3 row-cols-md-3 row-cols-sm-1 row-cols-1">
+        <div class="col">
+          <img src="./logos/UEI-Badge-Primary-Logo.svg">
+          <!-- <p>Creating a brighter, more equitable tomorrow for all of Utah, today.</p> -->
+        </div>
+        <div class="col footer-nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="lunch-debt.html">School Lunch Debt</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="volunteer.html">Volunteer</a></li>
+            <li><a href="donate.html">Donate</a></li>
+          </ul>
+        </div>
+        <div class="col contact text-center">
+          <h5>Contact</h5>
+          <a href="mailto:contact@utahempowerment.org">contact@utahempowerment.org</a>
+        </div>
+  
       </div>
-      <div class="col footer-nav">
-        <h5>Navigation</h5>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="lunch-debt.html">School Lunch Debt</a></li>
-          <li><a href="events.html">Events</a></li>
-          <li><a href="donate.html">Donate</a></li>
-        </ul>
-      </div>
-      <div class="col contact text-center">
-        <h5>Contact</h5>
-        <a href="mailto:contact@utahempowerment.org">contact@utahempowerment.org</a>
-      </div>
-
+  
+      
     </div>
-
     <div class="socials text-center">
       <div>
         <a href="https://www.instagram.com/utahempowermentinitiative/?igsh=MzJoYTBibjBvbjhk"><i

@@ -1,7 +1,12 @@
 @import 'custom';
 
+
 body {
     font-family: 'montserrat';
+    // justify-content: center;
+    // background: url("../background/birds.png") no-repeat center center; 
+    // background-size: cover;
+    background-color: $light;
 }
 
 @font-face {
@@ -17,9 +22,10 @@ header{
     justify-content: center;
     background: url("../background/birds.png") no-repeat center center; 
     background-size: cover;
+    
     & img {
         width:100%;
-        height: 35vh;
+        height: 25vh;
         padding: 1rem;
     }
 
@@ -27,7 +33,9 @@ header{
 
 
 main {
-    background-color: $light;
+    // background: url("../background/birds.png") repeat center center; 
+    // background-size: cover;
+    // background-color: $light;
 
     & h1 {
         padding: 1rem;
@@ -67,7 +75,7 @@ footer {
         padding: 2rem 1rem 2rem 0;
     }
     & .socials {
-        background-color: $tertiary;
+        background-color: $info;
         padding: .5rem;
     }
     
